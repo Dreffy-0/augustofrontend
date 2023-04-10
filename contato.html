@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/A.png">
+
+    <title>Augusto's Front-End</title>
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <link href="cover.css" rel="stylesheet">
+    <link rel="stylesheet" href="floating-labels.css">
+</head>
+
+<body class="text-center">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand">Menu</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link active" href="contato.html">Contato</a>
+                    <a class="nav-link" href="sobre.html">Sobre</a>
+                </nav>
+            </div>
+        </header>
+
+        <main role="main" class="inner cover">
+            <form class="form-contato">
+                <div class="text-center mb-4">
+                    <img class="mb-4" src="img/A.png" alt="" width="50" height="50">
+                    <h1 class="h3 mb-3 font-weight-normal">Formulario de contato.</h1>
+                    <p>Preencha os campos abaixo para entrar em contato.</p>
+                </div>
+
+                <div class="form-label-group">
+                    <input type="nome" id="inputNome" class="form-control" placeholder="Nome Completo" required
+                        autofocus>
+                    <label for="inputNome">Nome Completo</label>
+                </div>
+
+                <div class="form-label-group">
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Endereço de email" required
+                        autofocus>
+                    <label for="inputEmail">Endereço de email</label>
+                </div>
+
+                <div class="form-label-group">
+                    <input type="tel" id="inputTel" class="form-control" placeholder="Telefone" required>
+                    <label for="inputTel">Telefone</label>
+                </div>
+
+                <div class="form-label-group">
+                    <textarea name="descricao" id="textDesc" cols="50" rows="4"></textarea>
+                    <label for="descricao">Descreva o que deseja para seu projeto</label>
+                </div>
+
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="Concordo"> Concordo com os termos de uso.
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">enviar</button>
+            </form>
+        </main>
+        <hr>
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <div class="cor">
+                    <i class="bi bi-whatsapp"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-tiktok"></i>
+                </div>
+                <p>Pagina desenvolvida com <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Principal JavaScript do Bootstrap
+    ================================================== -->
+    <!-- Foi colocado no final para a página carregar mais rápido -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
